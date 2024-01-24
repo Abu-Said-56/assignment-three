@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2? 
     family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap" rel="stylesheet">
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/b0db131c6e.js" crossorigin="anonymous"></script>
+
     <!-- tailwind customs -->
     <script>
       tailwind.config = {
@@ -38,7 +42,7 @@
   <!-- Header Section -->
         <header class="lg:container m-auto lg:max-auto pb-14">
             <!-- Navbar Section -->
-         <nav class="">
+         <nav>
            <div class="navbar bg-base-100">
              <div class="flex-1">
                <div class="dropdown">
@@ -536,7 +540,81 @@
 
       </div>
     </section>
+  <!-- Get in touch Section -->
+  <section class="py-5 my-24">
+    <div class="text-center py-10">
+      <h3 class="md:text-2xl lg:text-4xl">Get In Touch</h3>
+      <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+    </div>
+    <!-- Container div -->
+     <div class="h-auto lg:h-[500px] my-7  flex flex-col lg:flex-row gap-4">
+     <!-- left side  -->
+     <div class="w-full lg:w-[30%] flex flex-col gap-4 p-5 border-2 border-slate-300 rounded-xl">
+      <div class="bg-[#BCED6D] p-5 space-y-2 rounded-xl">
+        <img class="h-[30px] w-[30px]" src="images/Group 1171275317.png">
+        <p>Phone Number : </p>
+        <h4>(+62) 123-321-543</h4>
+      </div>
+      <div class="bg-[#FDDD5F] p-5 space-y-2 rounded-xl">
+        <img class="h-[30px] w-[30px]" src="images/Group 1171275318.png">
+        <p>Email:</p>
+        <h4>hockeys@support.com</h4>
+      </div>
+      <div class="bg-[#629CF3] p-5 space-y-2 rounded-xl">
+        <img class="h-[30px] w-[30px]" src="images/Group 1171275321.png">
+        <p>Location:</p>
+        <h4>152/1 Mohakhali Wireless Gate</h4>
+      </div>
+     </div>
+    <!-- Right side div -->
+    <div class="p-3 w-full lg:w-[70%] space-y-4">
 
+      <!-- Right container div -->
+    
+    <!--Input section -->
+      <div class="first-row flex flex-col lg:flex-row gap-4">
+        <div class="space-y-4 flex-1">
+          <label for="">Your Name:</label> <br>
+        <input type="text" placeholder="Enter your full name" class="bg-[#13131808] p-3 w-[100%]" >
+        </div>
+       <div class="space-y-4 flex-1">
+        <label for="">Email:</label>  <br>
+        <input type="email" placeholder="email" class="bg-[#13131808] p-3 w-full">
+
+       </div>
+      </div>
+      <div class="s-row flex justify-between flex-col lg:flex-row gap-3">
+       <div class="space-y-4 flex-1">
+        <label for="">Subject</label><br>
+        <input type="text" placeholder="Enter Your Subject" class="bg-[#13131808] p-3 w-full">
+       </div>
+        <div class="space-y-4 flex-1">
+          <label for="">Phone Number</label><br>
+        <input type=" number" placeholder="Enter Your phone Number" class="bg-[#13131808] p-3 w-full">
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-3">
+        <label for="mes">Message:</label>
+      <textarea name="" id="mes" cols="20" rows="7" placeholder="Write your message" class="bg-[#13131808] p-3 w-full"></textarea>
+      <button class="btn bg-bike-primary text-white ">Send Message</button>
+      </div>
+  </div>
+     </div>
+
+     <!-- Social midea Section -->
+     <div class="text-center my-20 bg-[#13131808] rounded-xl p-6">
+     <div class="text-center">
+      <h3 class="md:text-2xl lg:text-4xl">Social Media</h3>      
+     </div>
+     <div class="pt-5 flex gap-4 justify-center text-2xl">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-github"></i>
+     </div>
+    </div>
+  </section>
   </main>
   <!-- Footer Section -->
   <footer class="footer bg-black px-20 py-10  text-neutral-content flex-col lg:flex-row justify-around ">
